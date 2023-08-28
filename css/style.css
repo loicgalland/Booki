@@ -16,6 +16,7 @@ header img{
     margin: auto 0px;
     padding: 30px 50px;
 }
+
 .nav-bar{
     display: flex;
     flex-direction: row;
@@ -193,20 +194,23 @@ p{
 .cards-container{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 1fr 1fr;
+    background-color: #F2F2F2;
+    padding: 20px;
+    border-radius: 20px;
     gap: 30px;
 }
 .card-link{
     color: black;
     text-decoration: none;
+    min-width: 0;
 }
 .card{
+    display: flex;
+    flex-direction: column;
     background-color: white;
     border-radius: 20px;
     padding: 5px 5px 15px 5px;
     box-shadow: 0px 3px 15px 0px rgba(0, 0, 0, 0.10);
-    display: flex;
-    flex-direction: column;
     gap: 4px;
 }
 .card-image{
@@ -221,6 +225,11 @@ p{
     flex-direction: column;
     gap: 8px;
     padding: 0px 15px;
+}
+.card-title{
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
 }
 .description-hotel{
     font-size: 0.87em;
@@ -265,6 +274,13 @@ p{
     flex-direction: column;
     justify-content: space-between;
 }
+.title{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+
+}
+
 .see-more-link{
     color: black;
     text-decoration: none;
@@ -418,5 +434,23 @@ p{
     }
     .section-footer-container{
         padding: 0;
+    }
+    .mobile-order-1{
+        order: 1;
+    }
+    .mobile-order-2{
+        order: 2;
+    }
+    .mobile-order-3{
+        order: 3;
+    }
+    .mobile-order-4{
+        order: 4;
+    }
+    .mobile-order-5{
+        order: 5;
+    }
+    .mobile-order-6{
+        order: 6;
     }
 }
