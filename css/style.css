@@ -194,7 +194,6 @@ p{
 .cards-container{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    background-color: #F2F2F2;
     padding: 20px;
     border-radius: 20px;
     gap: 30px;
@@ -452,5 +451,11 @@ p{
     }
     .mobile-order-6{
         order: 6;
+    }
+    .hosting-container{
+        background-color: white;
+    }
+    .cards-container{
+        padding: 0px;
     }
 }
